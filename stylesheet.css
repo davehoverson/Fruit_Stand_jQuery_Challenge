@@ -1,0 +1,83 @@
+body {
+	background: url("images/pear-basket.jpeg") no-repeat top;
+}
+h1, .netgain{
+	text-align: center;
+	background: black;
+	padding: 10px 0;
+}
+.white {
+	text-align: center;
+	color: white;
+}
+.apple-product, .banana-product, .pear-product, .orange-product, 
+.apple-cart, .banana-cart, .pear-cart, .orange-cart{
+	width: 178px;
+	height: 178px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	box-shadow: 2px 2px gray;
+	margin: 0 auto;
+
+}
+.apple-cart, .banana-cart, .pear-cart, .orange-cart{
+	margin-top: 10px;
+	background: black;
+	font-size: 20px;
+	height: 212px;
+}
+.wallet-container{
+	margin-top:10px;
+	font-size:30px;
+}
+.price{
+	display: block;
+	margin-top: 110px;
+}
+.apple-product{
+	background:url("images/apple.png") no-repeat center;
+}
+
+.banana-product{
+	background:url("images/banana.png") no-repeat center;
+}
+.pear-product{
+	background:url("images/pear.png") no-repeat center;
+}
+.orange-product{
+	background:url("images/orange.png") no-repeat center;
+}
+.product{
+	opacity: 0.9;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.product:hover{
+	transform: scale(1.1);
+	opacity: 1;
+}
+.sell{
+	text-align: center;
+	font-size: 24px;
+	width: 178px;
+	background-color: gray;
+	margin: 0 auto;
+	box-shadow: 2px 2px darkgray;
+	cursor: pointer;
+
+}
+.sell:hover{
+	background-color: lightgray;
+	font-weight: bold;
+}
+.netgain{
+	display: none;
+}
+.cart > p {
+	position: relative;
+	top: 10px;
+}
+
+
+
